@@ -11,13 +11,13 @@ instrucciones las veces que sea necesario en base a la condición del bucle
     }
 */
 
-// EJEMPLO 1-testv3 - 2
+// EJEMPLO 1-2-Es el test dde fetch/pull
 $num = 0;
 while ($num <= 100) {
     echo  "$num, ";
     $num++;
 }
-//Ejemplo 2-testv2
+//Ejemplo 2-testv3
 
 $num = 0;
 while ($num <= 123) {
