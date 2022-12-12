@@ -20,7 +20,7 @@ while ($num <= 100) {
 //Ejemplo 2
 
 $num = 0;
-while ($num <= 124) {
+while ($num <= 123) {
     echo  "$num, ";
     $num++;
 }
