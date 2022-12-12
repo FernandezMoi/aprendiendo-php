@@ -17,7 +17,7 @@ while ($num <= 100) {
     echo  "$num, ";
     $num++;
 }
-//Ejemplo 2-test
+//Ejemplo 2-testv2
 
 $num = 0;
 while ($num <= 123) {
