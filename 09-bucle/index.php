@@ -11,7 +11,7 @@ instrucciones las veces que sea necesario en base a la condición del bucle
     }
 */
 
-// EJEMPLO 1-2
+// EJEMPLO 1-3
 $num = 0;
 while ($num <= 100) {
     echo  "$num, ";
