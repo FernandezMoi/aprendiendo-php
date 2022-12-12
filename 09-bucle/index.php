@@ -17,7 +17,7 @@ while ($num <= 100) {
     echo  "$num, ";
     $num++;
 }
-//Ejemplo 2-testv3
+//Ejemplo 2-2-Es el test dde fetch/pull
 
 $num = 0;
 while ($num <= 123) {
