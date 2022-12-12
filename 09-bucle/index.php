@@ -11,13 +11,13 @@ instrucciones las veces que sea necesario en base a la condición del bucle
     }
 */
 
-// EJEMPLO 1-3
+// EJEMPLO 1-test
 $num = 0;
 while ($num <= 100) {
     echo  "$num, ";
     $num++;
 }
-//Ejemplo 2-2
+//Ejemplo 2-test
 
 $num = 0;
 while ($num <= 123) {
