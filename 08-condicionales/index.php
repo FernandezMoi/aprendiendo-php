@@ -27,12 +27,12 @@ and,or
 */
 
 // EJEMPLO 1
-$color = "verde";
+$color = "rojo";
 
 if ($color == "rojo") {
-    echo "EL COLOR ES ROJOs";
+    echo "EL COLOR ES ROJO";
 } else {
-    echo "El color no es rojo";
+    echo "El color no es rojoss";
 }
 echo "<br>";
 echo "<hr>";

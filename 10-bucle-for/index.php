@@ -8,7 +8,7 @@
 */
 $result = 0;
 
-for ($i = 0; $i <= 100; $i++) {
+for ($i = 0; $i < 5; $i++) {
     $result += $i;
 }
 echo "<h1>El resuultado es $result <h1>";
