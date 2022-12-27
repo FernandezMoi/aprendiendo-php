@@ -9,6 +9,9 @@
 </head>
 
 <body>
+    <?php
+    $nombre = "Moi Fdez";
+    ?>
     <div class="cabecera">
         <h1>Includes en PHP</h1>
         <ul>
