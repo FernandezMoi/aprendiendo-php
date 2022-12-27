@@ -52,25 +52,55 @@ function tabla($numero)
 
 function calculadora($num1, $num2, $negrita = false)
 {
-    if ($negrita) {
-        echo "<h1>";
-    }
-    //conjunto de instrucciones
     $sum = $num1 + $num2;
     $resta = $num1 - $num2;
     $prod = $num1 * $num2;
     $cociente = $num1 / $num2;
-    echo "Suma: $sum <br>";
-    echo "Resta: $resta <br>";
-    echo "Multiplicación: $prod <br>";
-    echo "División: $cociente <br>";
+
+    $cadena_texto = "";
+
     if ($negrita) {
-        echo "</h1>";
+        $cadena_texto .= "<h1>";
     }
+    //conjunto de instrucciones
+    $cadena_texto .= "Suma: $sum <br>";
+    $cadena_texto .= "Resta: $resta <br>";
+    $cadena_texto .= "Multiplicación: $prod <br>";
+    $cadena_texto .= "División: $cociente <br>";
+    if ($negrita) {
+        $cadena_texto .= "</h1>";
+    }
+    $cadena_texto .= "</hr>";
+    return $cadena_texto;
 }
 
 if (isset($_GET['num1']) && isset($_GET['num2'])) {
-    calculadora($_GET['num1'], $_GET['num2']);
+    echo calculadora($_GET['num1'], $_GET['num2'], true);
 } else {
-    calculadora(35, 28, true);
+    echo calculadora(35, 28);
 }
+
+//Ejemplo 4
+
+function devuelveElNombre($nombre)
+{
+    $texto = $nombre;
+    return $texto;
+}
+
+function devuelveElApellido($apellido)
+{
+    $texto = $apellido;
+    return $texto;
+}
+
+
+function devuelveElNombreApellidos($nombre, $apellido)
+{
+    $texto = "El nombre es " . devuelveElNombre($nombre)
+        . "<br/>" .
+        "con apellido " . devuelveElApellido($apellido);
+    return $texto;
+}
+
+echo devuelveElNombreApellidos("Moises", "Fdez");
