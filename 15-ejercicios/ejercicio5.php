@@ -34,7 +34,7 @@ $categories = array_keys($juegos);
 </head>
 
 <body>
-    <table border="1" border-spacing="30px">
+    <table border="1">
         <tr>
             <?php foreach ($categories as $key) : ?>
                 <th><?= $key ?></th>

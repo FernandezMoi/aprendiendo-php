@@ -2,5 +2,16 @@
   "editor.formatOnType": true,
   "editor.formatOnPaste": true,
   "html.format.indentInnerHtml": true,
-  "javascript.inlayHints.propertyDeclarationTypes.enabled": true
+  "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "cSpell.words": [
+    "COMPARACION",
+    "condicion",
+    "deunanyo",
+    "expirable",
+    "identico",
+    "instruucciones",
+    "mayoria",
+    "rojoss",
+    "superglobal"
+  ]
 }
