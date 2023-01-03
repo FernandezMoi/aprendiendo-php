@@ -21,12 +21,12 @@
     $gestor = opendir('./images');
 
     if ($gestor) :
-        while (($image = readdir($gestor) !== false)) :
-            echo "ENTRÉ EN EL DIR 2<br/>";
+        while (($image = readdir($gestor)) !== false) :
 
-            echo '<img src="images/' . $image . '" width="200px"/><br/>';
-            echo "ENTRÉ EN EL DIR 2<br/>";
-
+            if ($image != '.' && $image != '..') :
+                echo "ENTRÉ EN EL DIR 2<br/>";
+                echo "<img src='images/$image' width='200px'/><br/>";
+            endif;
         endwhile;
     endif;
     ?>
